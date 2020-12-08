@@ -198,10 +198,10 @@ while n < fim:
     if divisores == n and n != 0:
             perfeitos.append(n)
     n += 1
-print(perfeitos)    #{6, 28, 496, 8121, 33550336, 859869064...}
+print(perfeitos)    #[6, 28, 496, 8121, 33550336, 859869064...]
 
 # Podemos economizar processamento pela formula 2^n−1(2^n - 1) 
-primos = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 53, 59, 61, 67, 71, 73} #Uma tupla com os 20 primeiros primos
+primos = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 53, 59, 61, 67, 71, 73) #Uma tupla com os 20 primeiros primos
 perfeitos = list()
 perf_no_intervalo = list()
 for primo in primos:

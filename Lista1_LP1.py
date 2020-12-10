@@ -54,7 +54,7 @@ print('Área:', str(area))
     g.2 / 2                 = 1.0           (" .0" pois divisões retornam Float, não Integer)
     h.2 // 2                = 1             (A divisão inteira '//' retorna a parte inteira)             
     i.4 % 2                 = 0             (O operador "%" retorna o resto da divisão)
-    j.( 100 // 5 ) % 5      = 20            (A divisão inteira '//' retorna a parte inteira)
+    j.( 100 // 5 ) % 5      = 0             (A divisão inteira '//' retorna a parte inteira)
 
 3.Indique o resultado lógico das seguintes expressões: 
     a.2 < 3                                           = Verdadeiro

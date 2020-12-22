@@ -245,7 +245,7 @@ def ja_venceu(tabela): #Temos 8 casos possíveis para verificar
             vitoria = True
     if tabela[0][2] == tabela[1][1]:
         if tabela[0][2] == tabela[2][0]:
-            vitoria == False
+            vitoria == True
     
     return vitoria
 
